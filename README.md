@@ -12,7 +12,7 @@ The dataset is mostly eye-level data with some overhead / drone data in there to
 ![output](https://github.com/stephansturges/HOT/assets/20320678/92d0ad59-a60e-45e2-8ef5-5d01758fe4d4)
 
 
-I'm also working on some larger models that work better... but probably won't be open-sourcing them for the time being. If you want one, contact me ;)
+I'm also working on some larger models that work better (see vide below)... but probably won't be open-sourcing them for the time being. If you want one, contact me ;)
 
 
 ![output](https://github.com/stephansturges/HOT/assets/20320678/e76c50d6-9de8-4dda-b8a1-d3663c059b6c)
