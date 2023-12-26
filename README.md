@@ -1,6 +1,6 @@
 ## What is this?
 
-HOT is a set of short-range / low-rez / low-altitude trained YOLOv8-nano detection and segmentation model that only detects people IN THERMAL IMAGERY and runs at 640px x 512 px. It's a super basic training run for now.
+HOT is a set of short-range / low-rez / low-altitude trained YOLOv8-nano detection and segmentation model that only detects people IN THERMAL IMAGERY. It's a super basic training run for now.
 
 It's free to use so knock yourself out! Just make sure to follow the Ultralytics terms of service around commercial use (https://github.com/ultralytics/ultralytics) since this uses their code for training.
 
@@ -13,7 +13,7 @@ detection:
 
 ![output](https://github.com/stephansturges/HOT/assets/20320678/92d0ad59-a60e-45e2-8ef5-5d01758fe4d4)
 
-segmentation:
+segmentation (640 x 640 / aug 1 / nano model):
 
 ![FLIRseg-nano](https://github.com/stephansturges/HOT/assets/20320678/87371c29-3500-4626-8298-861a92ed1c77)
 
