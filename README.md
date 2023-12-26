@@ -1,6 +1,6 @@
 ## What is this?
 
-HOT is a short-range / low-rez / low-altitude trained YOLOv8-nano-segmentation model that only detects people IN THERMAL IMAGERY and runs at 640px x 512 px. It's a super basic training run for now.
+HOT is a set of short-range / low-rez / low-altitude trained YOLOv8-nano detection and segmentation model that only detects people IN THERMAL IMAGERY and runs at 640px x 512 px. It's a super basic training run for now.
 
 It's free to use so knock yourself out! Just make sure to follow the Ultralytics terms of service around commercial use (https://github.com/ultralytics/ultralytics) since this uses their code for training.
 
@@ -9,7 +9,14 @@ It's free to use so knock yourself out! Just make sure to follow the Ultralytics
 It's not bad... it's a nano model so it's super fast for your edge devices. See the video below (although most of the people are occluded here... I should get a better demo video!)
 The dataset is mostly eye-level data with some overhead / drone data in there too, for this nano model. This is not meant to be a 100%-drone AI model. I'm training bigger ones but probably won't make them public :)
 
+detection:
+
 ![output](https://github.com/stephansturges/HOT/assets/20320678/92d0ad59-a60e-45e2-8ef5-5d01758fe4d4)
+
+segmentation:
+
+![FLIRseg-nano](https://github.com/stephansturges/HOT/assets/20320678/87371c29-3500-4626-8298-861a92ed1c77)
+
 
 
 I'm also working on some larger models that work better (see vide below)... but probably won't be open-sourcing them for the time being. If you want one, contact me ;)
